@@ -15,7 +15,7 @@ E(n) = E(n-3) + E(n-2) + E(n-1).<br>
 The first elements are E(1)=1, E(2)=2 and E(3)=3.<br>
 Compute the *SUM_PRIME* element in this series. Let *SERIES* be the result
 4. In the file generate.c there is a function called generate that returns a binary search tree.<br>
-Call this function with *SUM_PRIME*.<br>
+Call this function with *SERIES* result from above.<br>
 Iterate over the left hand side of this tree that was generated and print the elements in descending order. <br>
 Choose the sixth element value in this list. Let this be *RESULT*
 5. *RESULT* % 22 is the index in the meme list (starting from 0 top left, going left to right first and then line by line)
